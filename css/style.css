@@ -192,19 +192,37 @@ section {
 }
 section > .container {
     display: flex;
+    
 }
 section .big-col {
     width: 60%;
+    
 
 }
-.small-col > h1{
+section .small-col  h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: #23272A;
+    padding-right: 250px;
+
     
-    font-size: 35px;
-    color: #23272A
+
+
+}
+section .small-col p{
+    text-align: left;
+    padding-right: 150px;
+
 }
 section .small-col {
     width: 40%;
+    padding: 35px 0;
+   
+  
+
 }
+
 
 /*------------
    SECOND SECTION
