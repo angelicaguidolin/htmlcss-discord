@@ -79,20 +79,48 @@
     margin-right: auto;
     margin-left: auto;
 }
+ul{
+    color: #ffffff;
+}
+.btn-scarica {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 18px;
+
+}
+/*------------
+  TYPOGRAFY
+------------*/   
+body{
+    font-family: "Roboto", serif;
+    line-height: 1.5;
+}   
+h1{
+    font-size: 45px;
+}
+
 
 /*------------
     HEADER
 ------------*/    
 .header-top {
     padding: 16px 0;
+    background-color: #255EE8;
 }
 
 .header-bottom {
-    padding: 30px 0;
+    padding: 150px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .header-top > .container {
     display: flex;
+    align-items: center;
 }
 
 .header-top > .container > *{
@@ -105,6 +133,7 @@
 
 .header-top .login {
     text-align: right;
+    color: #ffffff;
 }
 
 .header-top .nav {
@@ -115,18 +144,44 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 10px
+    gap: 25px
 }
 
 .nav ul a {
     text-decoration: none;
     color: inherit
 }
+.btn-login{
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    
+}
 
 .header-bottom .header-col {
-    max-width:920px;
+    max-width:720px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+}
+.header-bottom .header-col p{
+    padding-top:30px;
+    padding-bottom: 25px;
+}
+.btn-white{
+    background-color: #ffffff;
+    color: black;
+    padding: 9px;
+}
+.btn-black{
+    background-color: #23272a;
+    color: #ffffff;
+    padding: 9px;
+    margin-left: 20px;
+}
+i{
+    padding-right: 4px;
 }
 
 /*------------
@@ -140,6 +195,12 @@ section > .container {
 }
 section .big-col {
     width: 60%;
+
+}
+.small-col > h1{
+    
+    font-size: 35px;
+    color: #23272A
 }
 section .small-col {
     width: 40%;
